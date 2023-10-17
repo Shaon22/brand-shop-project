@@ -1,0 +1,41 @@
+[
+    {
+        "id":1,
+        "brand_name":"Intel",
+        "brand_img":"https://i.ibb.co/brQ7MqL/intel-brand-img.jpg"
+    },
+    {
+        "id":2,
+        "brand_name":"AMD",
+        "brand_img":"https://i.ibb.co/v18r10f/amd.jpg"
+    },
+    {
+        "id":3,
+        "brand_name":"Biostar",
+        "brand_img":"https://i.ibb.co/5jG3Ccj/biostar-brand-img.jpg"
+    },
+    {
+        "id":3,
+        "brand_name":"Hp",
+        "brand_img":"https://i.ibb.co/LZ6xpX9/hp-brand.png"
+    },
+    {
+        "id":4,
+        "brand_name":"Samsung",
+        "brand_img":"https://i.ibb.co/gMggrKx/samsung-brand-img.jpg"
+    },
+    {
+        "id":5,
+        "brand_name":"Asus",
+        "brand_img":"https://i.ibb.co/wBzW5Z7/asus-brand-img.jpg"
+    },
+    {
+        "id":6,
+        "brand_name":"Gigabyte",
+        "brand_img":"https://i.ibb.co/XZRDQBH/gigabyte-brand-img.png"
+    }
+]
+
+
+
+
