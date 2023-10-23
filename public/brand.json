@@ -1,41 +1,55 @@
 [
     {
-        "id":1,
-        "brand_name":"Intel",
-        "brand_img":"https://i.ibb.co/brQ7MqL/intel-brand-img.jpg"
+        "id": 1,
+        "brand_name": "Intel",
+        "brand_img": "https://i.ibb.co/brQ7MqL/intel-brand-img.jpg",
+        "add_image1": "https://i.ibb.co/CW5fLn4/Intel-New-Branding-Logos-2.jpg",
+        "add_image2": "https://i.ibb.co/Gt2jT43/intel-top-2-0.jpg",
+        "add_image3": "https://i.ibb.co/kXy5d3Q/maxresdefault.jpg",
+        "add_image4": "https://i.ibb.co/wsvYWyc/Intel-Core-Logo-Hero.jpg"
+        
     },
     {
-        "id":2,
-        "brand_name":"AMD",
-        "brand_img":"https://i.ibb.co/v18r10f/amd.jpg"
+        "id": 2,
+        "brand_name": "AMD",
+        "brand_img": "https://i.ibb.co/v18r10f/amd.jpg",
+        "add_image1": "https://i.ibb.co/WFMbrJC/images.jpg",
+        "add_image2": "https://i.ibb.co/4thPP8K/images-1.jpg",
+        "add_image3": "https://i.ibb.co/5GQhZnn/E1-Dllu-NX0-Akb-Ycv.jpg",
+        "add_image4": "https://i.ibb.co/9T68FJh/download.jpg"
     },
     {
-        "id":3,
-        "brand_name":"Biostar",
-        "brand_img":"https://i.ibb.co/5jG3Ccj/biostar-brand-img.jpg"
+        "id": 3,
+        "brand_name": "Gigabyte",
+        "brand_img": "https://i.ibb.co/XZRDQBH/gigabyte-brand-img.png",
+        "add_image1": "https://i.ibb.co/yqKBQPh/o201702241129119116.jpg",
+        "add_image2": "https://i.ibb.co/whPmb6P/mb-new-0105-1.jpg",
+        "add_image3": "https://i.ibb.co/GWzwXhC/images.jpg",
+        "add_image4": "https://i.ibb.co/pRP1V7z/images-1.jpg"
     },
     {
-        "id":3,
-        "brand_name":"Hp",
-        "brand_img":"https://i.ibb.co/LZ6xpX9/hp-brand.png"
+        "id": 4,
+        "brand_name": "Hp",
+        "brand_img": "https://i.ibb.co/LZ6xpX9/hp-brand.png",
+        "add_image1": "https://i.ibb.co/Nx7xDP7/10th-Gen-Intel-Core-HP-Laptop-Deals-7.jpg",
+        "add_image2": "https://i.ibb.co/HzW9Qrn/images.jpg",
+        "add_image3": "https://i.ibb.co/8PHtVk8/maxresdefault.jpg"
     },
     {
-        "id":4,
-        "brand_name":"Samsung",
-        "brand_img":"https://i.ibb.co/gMggrKx/samsung-brand-img.jpg"
+        "id": 5,
+        "brand_name": "Samsung",
+        "brand_img": "https://i.ibb.co/gMggrKx/samsung-brand-img.jpg",
+        "add_image1": "https://i.ibb.co/LZLfrC2/2022-CES-Samsung-Award-monitors-cropped.jpg",
+        "add_image2": "https://i.ibb.co/gJchS7Y/sam1.jpg",
+        "add_image3": "https://i.ibb.co/wQ0bzjF/ssd-cover.jpg"
     },
     {
-        "id":5,
-        "brand_name":"Asus",
-        "brand_img":"https://i.ibb.co/wBzW5Z7/asus-brand-img.jpg"
-    },
-    {
-        "id":6,
-        "brand_name":"Gigabyte",
-        "brand_img":"https://i.ibb.co/XZRDQBH/gigabyte-brand-img.png"
+        "id": 6,
+        "brand_name": "Asus",
+        "brand_img": "https://i.ibb.co/wBzW5Z7/asus-brand-img.jpg",
+        "add_image1": "https://i.ibb.co/pxPGBmp/maxresdefault.jpg",
+        "add_image2": "https://i.ibb.co/7SqzKKh/maxresdefault-1.jpg",
+        "add_image3": "https://i.ibb.co/BftSTSd/Intel-Raptor-Lake-Z790-H770-B760.jpg",
+        "add_image4": "https://i.ibb.co/9n66Ckx/20210702104734.jpg"
     }
 ]
-
-
-
-

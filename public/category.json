@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "catImage":"https://i.ibb.co/PCFKDjn/screen-2154629-1280.webp",
+        "catName":"Monitor"
+    },
+    {
+        "id":2,
+        "catImage":"https://i.ibb.co/DQRXcWY/b550m-ds3h-ac-3-550x550.jpg",
+        "catName":"Motherboard"
+    },
+    {
+        "id":3,
+        "catImage":"https://i.ibb.co/ncc8Npg/images.jpg",
+        "catName":"Processor"
+    },
+    {
+        "id":4,
+        "catImage":"https://i.ibb.co/NSgNdSc/computer-mouse-cartoon-icon-illustration-vector.jpg",
+        "catName":"Mouse"
+    },
+    {
+        "id":5,
+        "catImage":"https://i.ibb.co/qY84mGL/79176173-silhouette-color-section-of-computer-keyboard-vector-illustration.jpg",
+        "catName":"Keyboard"
+    },
+    {
+        "id":6,
+        "catImage":"https://i.ibb.co/2Yn1SQp/headphone-dribbble-02.png",
+        "catName":"Headphone"
+    }
+]
