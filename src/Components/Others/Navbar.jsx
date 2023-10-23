@@ -39,7 +39,7 @@ const Navbar = () => {
             }
           </ul>
         </div>
-       <img className="w-[200px] h-[100px]" src="https://i.ibb.co/c6h2m6r/png-clipart-dynatrace-logo-tech-companies.png" alt="" />
+       <img className="w-[150px] h-[5np0px]" src="https://i.ibb.co/VQrzNWh/images.png" alt="" />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
