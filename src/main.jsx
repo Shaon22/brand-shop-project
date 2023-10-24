@@ -46,12 +46,12 @@ const router = createBrowserRouter([
       {
         path: '/updateProducts/:id',
         element:<PrivateRoute><UpdateProducts></UpdateProducts></PrivateRoute>,
-          loader: ({ params }) => fetch(`http://localhost:5000/category/${params.id}`),
+          loader: ({ params }) => fetch(`https://brand-shop-server-3wjz8x9au-shaon-polock-roys-projects.vercel.app/category/${params.id}`),
       },
       {
         path:'/productDetails/:id',
         element:<PrivateRoute><ProductsDetails></ProductsDetails></PrivateRoute>,
-        loader: ({ params }) => fetch(`http://localhost:5000/category/${params.id}`),
+        loader: ({ params }) => fetch(`https://brand-shop-server-3wjz8x9au-shaon-polock-roys-projects.vercel.app/category/${params.id}`),
 
       },
       {

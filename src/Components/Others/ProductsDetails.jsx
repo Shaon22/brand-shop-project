@@ -14,7 +14,7 @@ const ProductsDetails = () => {
         const newCart={
             id,name,image,shortDes,price,email
         }
-        fetch('http://localhost:5000/userCart', {
+        fetch('https://brand-shop-server-3wjz8x9au-shaon-polock-roys-projects.vercel.app/userCart', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

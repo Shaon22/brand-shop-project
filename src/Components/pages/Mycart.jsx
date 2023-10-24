@@ -6,7 +6,7 @@ const Mycart = () => {
     const { user } = useContext(myContext)
     const [cartItems, setCartItems] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/userCart/${user.email}`)
+        fetch(`https://brand-shop-server-3wjz8x9au-shaon-polock-roys-projects.vercel.app/userCart/${user.email}`)
             .then(res => res.json())
             .then(data => setCartItems(data))
     }, [])
@@ -23,7 +23,7 @@ const Mycart = () => {
           }).then((result) => {
             if (result.isConfirmed) {
               
-              fetch(`http://localhost:5000/deleteCart/${id}`,{
+              fetch(`https://brand-shop-server-3wjz8x9au-shaon-polock-roys-projects.vercel.app/deleteCart/${id}`,{
                 method:'DELETE'
               })
               .then(res => res.json())
@@ -44,14 +44,14 @@ const Mycart = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 p-10">
             {
                 cartItems.map(cartItem =>
-                    <div key={cartItem._id} className="card  bg-base-100 shadow-xl">
+                    <div key={cartItem._id} className="card flex-grow bg-base-100 shadow-xl">
                         <figure className="px-10 pt-10">
                             <img src={cartItem.image} alt="" className="rounded-xl" />
                         </figure>
                         <div className="card-body items-center text-center">
                             <h2 className="card-title">{cartItem.name}</h2>
                            <h1>{cartItem.price}</h1>
-                            <div className="card-actions">
+                            <div className="card-actions flex-grow">
                                 <button className="btn bg-orange-500 text-white">Buy Now</button>
                                 <button onClick={()=>handledelete(cartItem._id)} className="btn bg-orange-500 text-white">Delete</button>
                             </div>

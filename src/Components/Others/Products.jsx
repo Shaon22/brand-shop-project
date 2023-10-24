@@ -1,11 +1,10 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import Product from "./Product";
-import { useContext, useEffect, useState } from "react";
-import { myContext } from "../AuthProvider/AuthProvider";
+import {useEffect, useState } from "react";
 const Products = () => {
     const [addedproducts, setAddedproducts] = useState()
     useEffect(() => {
-        fetch(`http://localhost:5000/products/${brand_name}`)
+        fetch(`https://brand-shop-server-3wjz8x9au-shaon-polock-roys-projects.vercel.app/products/${brand_name}`)
             .then(res => res.json())
             .then(data => setAddedproducts(data))
     }, [])
