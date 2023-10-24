@@ -1,8 +1,11 @@
-# React + Vite
+Digiland is a brand based shopping website.
+site link:https://brand-shop-project.web.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+There are some attractive feature in that project.some of are mentioned below.
 
-Currently, two official plugins are available:
+*Email-password based Authentication for security.
+*Extra Google login as a scial login sytem
+*User can choose product brandwise and also category wise.
+*User can see product details efficiently
+*User can add product to his/her own cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
